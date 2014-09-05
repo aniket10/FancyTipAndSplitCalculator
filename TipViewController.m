@@ -30,8 +30,8 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    
-//    [self.view ]
+//    self.billAmount.delegate = self;
+    self.billAmount.becomeFirstResponder;
 }
 
 - (void)didReceiveMemoryWarning
